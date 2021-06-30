@@ -25,3 +25,23 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+// Conditional examples
+// 1
+
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+// 2
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybegoing outside isn't such a great idea...");
+}
+
+// 3
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
